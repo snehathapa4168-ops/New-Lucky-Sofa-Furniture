@@ -1,0 +1,333 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collections | New Lucky Sofas & Furniture</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#F8F5F0;
+color:#1E1E1E;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo h2{
+font-family:'Playfair Display',serif;
+color:#6B4F3B;
+}
+
+.logo span{
+font-size:12px;
+letter-spacing:2px;
+}
+
+.nav-links a{
+text-decoration:none;
+margin-left:25px;
+color:#333;
+font-weight:500;
+}
+
+.hero{
+height:50vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+url('images/collection-banner.jpg');
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h1{
+font-family:'Playfair Display',serif;
+font-size:3.5rem;
+}
+
+.section{
+padding:80px 8%;
+}
+
+.section-title{
+margin-bottom:40px;
+text-align:center;
+}
+
+.section-title h2{
+font-family:'Playfair Display',serif;
+font-size:2.4rem;
+color:#6B4F3B;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.product-card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+}
+
+.product-card img{
+width:100%;
+height:280px;
+object-fit:cover;
+}
+
+.product-info{
+padding:20px;
+}
+
+.product-info h3{
+color:#6B4F3B;
+margin-bottom:10px;
+}
+
+.product-info p{
+font-size:14px;
+line-height:1.6;
+}
+
+footer{
+background:#1E1E1E;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.2rem;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+
+<div class="logo">
+<h2>NL</h2>
+<span>NEW LUCKY SOFAS & FURNITURE</span>
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</nav>
+
+<section class="hero">
+<div>
+<h1>Furniture Collections</h1>
+<p>Luxury, Comfort & Craftsmanship</p>
+</div>
+</section>
+
+<!-- SOFAS -->
+
+<section class="section">
+
+<div class="section-title">
+<h2>Luxury Sofas</h2>
+</div>
+
+<div class="products">
+
+<div class="product-card">
+<img src="images/sofa1.jpg">
+<div class="product-info">
+<h3>Modern Sofa</h3>
+<p>Elegant sofa designed for comfort and everyday living.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/sofa2.jpg">
+<div class="product-info">
+<h3>Premium Sofa Set</h3>
+<p>Contemporary design with premium finishing.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/sofa3.jpg">
+<div class="product-info">
+<h3>Luxury Corner Sofa</h3>
+<p>Spacious seating solution for modern homes.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- BEDS -->
+
+<section class="section">
+
+<div class="section-title">
+<h2>Premium Beds</h2>
+</div>
+
+<div class="products">
+
+<div class="product-card">
+<img src="images/bed1.jpg">
+<div class="product-info">
+<h3>Designer Bed</h3>
+<p>Built with comfort, elegance and durability in mind.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/bed2.jpg">
+<div class="product-info">
+<h3>Modern Bed Frame</h3>
+<p>Perfect balance of style and practicality.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/bed3.jpg">
+<div class="product-info">
+<h3>Luxury Bedroom Set</h3>
+<p>Transform your bedroom into a premium space.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- CHAIRS -->
+
+<section class="section">
+
+<div class="section-title">
+<h2>Designer Chairs</h2>
+</div>
+
+<div class="products">
+
+<div class="product-card">
+<img src="images/chair1.jpg">
+<div class="product-info">
+<h3>Accent Chair</h3>
+<p>Modern aesthetics with superior comfort.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/chair2.jpg">
+<div class="product-info">
+<h3>Comfort Chair</h3>
+<p>Perfect for living rooms and office spaces.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/chair3.jpg">
+<div class="product-info">
+<h3>Premium Lounge Chair</h3>
+<p>Crafted to provide style and relaxation.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- CUSTOM -->
+
+<section class="section">
+
+<div class="section-title">
+<h2>Custom Furniture</h2>
+</div>
+
+<div class="products">
+
+<div class="product-card">
+<img src="images/custom1.jpg">
+<div class="product-info">
+<h3>Custom Design Service</h3>
+<p>Furniture tailored to your space and preferences.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/custom2.jpg">
+<div class="product-info">
+<h3>Made To Order</h3>
+<p>Unique furniture solutions created just for you.</p>
+</div>
+</div>
+
+<div class="product-card">
+<img src="images/custom3.jpg">
+<div class="product-info">
+<h3>Premium Craftsmanship</h3>
+<p>Designed with attention to every detail.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 New Lucky Sofas & Furniture.
+All Rights Reserved.
+</p>
+
+</footer>
+
+</body>
+</html>
+```
